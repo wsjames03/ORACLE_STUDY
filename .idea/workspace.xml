@@ -29,6 +29,12 @@
         <item name="JamesPC" type="feb32156:DbDataSourceImpl" />
         <item name="C##JAMES: schema" type="3abd1b6a:OraImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JamesPC" type="feb32156:DbDataSourceImpl" />
+        <item name="C##JAMES: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
