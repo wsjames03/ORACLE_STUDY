@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f93cd9-f98d-45a8-bd49-2c00a7dab3fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day7.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0361e81e-ad23-4a5a-b5a5-7d98b7c28870.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0361e81e-ad23-4a5a-b5a5-7d98b7c28870.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0361e81e-ad23-4a5a-b5a5-7d98b7c28870/storage_v2/_src_/schema/C__JAMES.IfdTqw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0361e81e-ad23-4a5a-b5a5-7d98b7c28870/storage_v2/_src_/schema/C__JAMES.IfdTqw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,23 +21,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="JamesPC" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="JamesPC" type="feb32156:DbDataSourceImpl" />
-        <item name="C##JAMES: schema" type="3abd1b6a:OraImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="JamesPC" type="feb32156:DbDataSourceImpl" />
-        <item name="C##JAMES: schema" type="3abd1b6a:OraImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="Git.Settings">
@@ -110,7 +91,7 @@
       <updated>1572090368740</updated>
       <workItem from="1572090369928" duration="16627000" />
       <workItem from="1572775593420" duration="7267000" />
-      <workItem from="1572841623182" duration="1152000" />
+      <workItem from="1572841623182" duration="2057000" />
     </task>
     <servers />
   </component>
