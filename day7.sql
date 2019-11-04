@@ -180,8 +180,27 @@ where SALARY > (select SALARY from EMPLOYEES where LAST_NAME = 'Abel');
 with Abel_sal as (select SALARY from EMPLOYEES where LAST_NAME = 'Abel')
 select EMPLOYEE_ID, LAST_NAME, SALARY
 from EMPLOYEES
-where SALARY >(select SALARY from Abel_sal);
+where SALARY > (select SALARY from Abel_sal);
 
+--练习
+--1.	查询员工的last_name, department_id, salary.其中员工的salary,department_id与有奖金的任何一个员工的salary,department_id相同即可
+select LAST_NAME, DEPARTMENT_ID, SALARY
+from EMPLOYEES
+where (SALARY, DEPARTMENT_ID) in (select SALARY, DEPARTMENT_ID from EMPLOYEES where COMMISSION_PCT is not null)
 
+--2.	选择工资大于所有JOB_ID = 'SA_MAN'的员工的工资的员工的last_name, job_id, salary
+select LAST_NAME, JOB_ID, SALARY
+from EMPLOYEES
+where SALARY > all (select SALARY from EMPLOYEES where JOB_ID = 'SA_MAN')
+  AND JOB_ID <> 'SA_MAN'
 
+--3.	选择所有没有管理者的员工的last_name
+--select LAST_NAME from EMPLOYEES e1 where MANAGER_ID=(select EMPLOYEE_ID from  EMPLOYEES e2 where e1.EMPLOYEE_ID=e2.EMPLOYEE_ID)
 
+select last_name
+from employees e1
+where not exists(
+        select 'A'
+        from employees e2
+        where e1.manager_id = e2.employee_id
+    )
