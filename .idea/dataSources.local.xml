@@ -28,6 +28,8 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="C##JAMES" />
+            <name qname="C##JZ1" />
+            <name qname="C##ZQ" />
             <name qname="SYSTEM" />
           </node>
         </introspection-scope>

@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day7.sql" beforeDir="false" afterPath="$PROJECT_DIR$/day7.sql" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +31,19 @@
         <item name="JamesPC" type="feb32156:DbDataSourceImpl" />
         <item name="C##JAMES: schema" type="3abd1b6a:OraImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JamesPC" type="feb32156:DbDataSourceImpl" />
+        <item name="C##JAMES: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="0361e81e-ad23-4a5a-b5a5-7d98b7c28870" />
+    </checked>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +51,11 @@
   <component name="ProjectId" id="1S7zA5bleMtyQuRVB5iPUsYrfRM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -57,37 +72,56 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <option name="contentProportion" value="0.22694571" />
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1cbcbb1b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1cbcbb1b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@77f7ed21" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@64eea2ea" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@53c5f84f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5684bab" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@24843341" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@17e76f8" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6eb1b12a" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JamesPC" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3307b2d" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -127,9 +161,32 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="400" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="400" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.900" />
-    <state x="488" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" />
-    <state x="488" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1600.900" />
+    <state x="400" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575550306230" />
+    <state x="400" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.900" timestamp="1575550306230" />
+    <state x="488" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575550308300">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="488" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.985@0.23.1920.985" timestamp="1575550308300" />
+    <state x="488" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1600.900" timestamp="1575550306230" />
+    <state width="635" height="302" key="GridCell.Tab.0.bottom" timestamp="1575814088302">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="635" height="302" key="GridCell.Tab.0.bottom/0.23.1920.985@0.23.1920.985" timestamp="1575814088302" />
+    <state width="635" height="302" key="GridCell.Tab.0.center" timestamp="1575814088302">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="635" height="302" key="GridCell.Tab.0.center/0.23.1920.985@0.23.1920.985" timestamp="1575814088302" />
+    <state width="635" height="302" key="GridCell.Tab.0.left" timestamp="1575814088301">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="635" height="302" key="GridCell.Tab.0.left/0.23.1920.985@0.23.1920.985" timestamp="1575814088301" />
+    <state width="635" height="302" key="GridCell.Tab.0.right" timestamp="1575814088302">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state width="635" height="302" key="GridCell.Tab.0.right/0.23.1920.985@0.23.1920.985" timestamp="1575814088302" />
+    <state x="625" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1575808677095">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="625" y="240" width="670" height="676" key="search.everywhere.popup/0.23.1920.985@0.23.1920.985" timestamp="1575808677095" />
   </component>
 </project>
